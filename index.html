@@ -3,36 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <title>Confirmação de Criação de Conta</title>
+    <style>
+        html{
+            font-size: 62.5%;
+        }
+        body{
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container{
+            max-width: 40rem;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #333;
+            border-radius: 1rem;
+            box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+        }
+        .container .logo{
+            max-width: 15rem;
+        }
+        .container h2{
+            font-size: 2.4rem;
+            margin-bottom: 1rem;
+        }
+        .container p{
+            font-size: 1.6rem;
+            margin-bottom: 2rem;
+            font-family: Arial, sans-serif;
+            letter-spacing: 0.05rem;
+            text-align: center;
+        }
+        .container .btn{
+            display: inline-block;
+            padding: 1rem 2rem;
+            font-size: 1.6rem;
+            font-weight: bold;
+            text-decoration: none;
+            background-color: #27ae60;
+            color: #fff;
+            border-radius: 0.5rem;
+            transition: background-color 0.3s;
+        }
+        .container .btn:hover{
+            background-color: #2ecc71;
+        }
+        .container img{
+            width: 100%;
+        }
+        .container .bottomButtons{
+            margin-top: -2rem;
+        }
+        .container .socialNetworks{
+            margin-top: 1rem;
+        }
+        .container .socialNetworks img{
+            width: 2rem;
+            height: 2rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            transition: transform 0.3s;
+            vertical-align: middle;
+            height: 110%;
+            width: 3rem;
+        }
+        .container .bottomButtons p{
+            color: white;
+            font-size: 1.2rem;
+        }
+        .container .rodape{
+            margin-top: 3rem;
+            margin-bottom: .5rem;
+            color: #888888;
+            font-size: 1.4rem;
+            opacity: .5;
+        }
+            
+    </style>
 </head>
-<body style="background-color: #000; color: #fff;font-family: Arial, sans-serif; text-align: center;">
-    <div style="max-width: 400px; margin: 0 auto; padding: 20px; background-color: #333; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
-        <img src="https://saomigueldoscampos.al.gov.br/assets/img/logo-header.png" alt="Logo" style="max-width: 150px; margin-bottom: 20px;">
-        <h2 style="">Olá, Hendryk</h1>
-        <p>Falta pouco para que você possa usar nosso Sistema de cursos. O primeiro passo você já deu, agora precisamos que você confirme sua conta</p>
-        <a href="link_para_confirmacao" style="display: inline-block; padding: 10px 20px; font-size: 16px; font-weight: bold; text-decoration: none; background-color: #2ecc71; color: #fff; border-radius: 5px; transition: background-color 0.3s;">Confirmar Criação de Conta</a>
+<body>
+    <div class="container">
+        <img class="logo" src="./passaroSedecti.png">
+        <h2>Olá, Hendryk</h1>
+        <p>Falta pouco para criar sua conta! Para garantir a segurança dos seus dados confirme a criação da sua conta no botão abaixo. &#128513</p>
+        <a class="btn" href="link_para_confirmacao" >Confirmar Criação de Conta</a>
         
-        <img src="Pair programming-pana.svg" alt="banner" style="">
-        <div style="margin-top: 30px;">
+        <img src="Pair programming-pana.svg" alt="banner">
+        <div class="bottomButtons">
             <h2>Ficou com dúvidas?</h2>
-            <a href="tel://5582920017456/" style="text-decoration: none; color: #fff;">Central de ajuda</a> |
-            <a href="#" style="text-decoration: none; color: #fff;">Comunidade</a> |
-            <a href="#" style="text-decoration: none; color: #fff;">Blog</a> |
-            <a href="#" style="text-decoration: none; color: #fff;">Sobre</a>
+            <p>Fale conosco agora mesmo! &#128521</p>
         </div>
 
-        <div style="margin-top: 30px;">
+        <div class="socialNetworks">
             <a href="https://www.instagram.com/sedecti.smc/">
-                <img src="instagram.png" alt="Instagram" style="vertical-align: middle; margin-right: 10px; width:30px; height:30px;">
+                <img src="instagram.png" alt="Instagram" >
             </a>
             <a href="https://wa.me/5582920017456">
-                <img src="whatsapp (1).png" alt="WhatsApp" style="vertical-align: middle; margin-right: 10px; width:30px; height:30px;">
+                <img src="whatsapp (1).png" alt="WhatsApp">
             </a>
             <a href="mailto:sedecti.smc@gmail.com">
-                <img src="gmail.png" alt="E-mail" style="vertical-align: middle; margin-right: 10px; width:30px; height:30px;">
+                <img src="gmail.png" alt="E-mail">
             </a>
         </div>
 
-        <p style="margin-top: 20px; font-size: 14px; color: #888888;">© Sedecti</p>
+        <p class="rodape">© 2023 Sedecti</p>
     </div>
 </body>
 </html>
