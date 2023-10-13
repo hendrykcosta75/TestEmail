@@ -4,35 +4,93 @@
     <meta charset="UTF-8">
     <title>Confirmação de Criação de Conta</title>
 </head>
-<body style="background-color: #000; color: #fff;font-family: Arial, sans-serif; text-align: center;">
-    <div style="max-width: 400px; margin: 0 auto; padding: 20px; background-color: #333; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
-        <img src="https://saomigueldoscampos.al.gov.br/assets/img/logo-header.png" alt="Logo" style="max-width: 150px; margin-bottom: 20px;">
-        <h2 style="">Olá, Hendryk</h1>
+
+<style>
+    body{
+        background-color: #000; 
+        color: #fff;
+        font-family: Arial, sans-serif; 
+        text-align: center;
+    }
+
+    .logo{
+        max-width: 150px; 
+        margin-bottom: 20px;
+    }
+
+    .corpo{
+        max-width: 400px; 
+        margin: 0 auto;
+        padding: 20px; 
+        background-color: #333;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .rodape{
+        margin-top: 30px;
+    }
+
+    .marca{
+        margin-top: 20px; 
+        font-size: 14px; 
+        color: #888888;
+    }
+
+    .button-link{
+        display: inline-block;
+        padding: 10px 20px; 
+        font-size: 16px; 
+        font-weight: bold; 
+        text-decoration: none; 
+        background-color: #2ecc71; 
+        color: #fff;
+        border-radius: 5px; 
+        transition: background-color 0.3s;
+    }
+
+    .icon{
+        vertical-align: middle; 
+        margin-right: 10px; 
+        width:30px; 
+        height:30px;
+    }
+
+    a{
+        text-decoration: 
+        none; color: #fff;
+    }
+
+</style>
+<body>
+    <div class="corpo">
+        <img src="https://saomigueldoscampos.al.gov.br/assets/img/logo-header.png" alt="Logo" class="logo">
+        <h2>Olá, Hendryk</h1>
         <p>Falta pouco para que você possa usar nosso Sistema de cursos. O primeiro passo você já deu, agora precisamos que você confirme sua conta</p>
-        <a href="link_para_confirmacao" style="display: inline-block; padding: 10px 20px; font-size: 16px; font-weight: bold; text-decoration: none; background-color: #2ecc71; color: #fff; border-radius: 5px; transition: background-color 0.3s;">Confirmar Criação de Conta</a>
+        <a href="link_para_confirmacao" class="button-link">Confirmar Criação de Conta</a>
         
-        <img src="Pair programming-pana.svg" alt="banner" style="">
-        <div style="margin-top: 30px;">
+        <img src="Pair programming-pana.svg" alt="banner">
+        <div class="rodape">
             <h2>Ficou com dúvidas?</h2>
-            <a href="tel://5582920017456/" style="text-decoration: none; color: #fff;">Central de ajuda</a> |
-            <a href="#" style="text-decoration: none; color: #fff;">Comunidade</a> |
-            <a href="#" style="text-decoration: none; color: #fff;">Blog</a> |
-            <a href="#" style="text-decoration: none; color: #fff;">Sobre</a>
+            <a href="tel://5582920017456/">Central de ajuda</a> |
+            <a href="#">Comunidade</a> |
+            <a href="#">Blog</a> |
+            <a href="#">Sobre</a>
         </div>
 
-        <div style="margin-top: 30px;">
+        <div class="rodape">
             <a href="https://www.instagram.com/sedecti.smc/">
-                <img src="instagram.png" alt="Instagram" style="vertical-align: middle; margin-right: 10px; width:30px; height:30px;">
+                <img src="instagram.png" alt="Instagram" class="icon">
             </a>
             <a href="https://wa.me/5582920017456">
-                <img src="whatsapp (1).png" alt="WhatsApp" style="vertical-align: middle; margin-right: 10px; width:30px; height:30px;">
+                <img src="whatsapp (1).png" alt="WhatsApp" class="icon">
             </a>
             <a href="mailto:sedecti.smc@gmail.com">
-                <img src="gmail.png" alt="E-mail" style="vertical-align: middle; margin-right: 10px; width:30px; height:30px;">
+                <img src="gmail.png" alt="E-mail" class="icon">
             </a>
         </div>
 
-        <p style="margin-top: 20px; font-size: 14px; color: #888888;">© Sedecti</p>
+        <p class="marca">© Sedecti</p>
     </div>
 </body>
 </html>
